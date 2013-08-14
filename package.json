@@ -1,0 +1,21 @@
+{
+  "name": "nchat",
+  "version": "0.0.0",
+  "description": "nchat =====",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wlaurance/nchat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlaurance/nchat/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1"
+  }
+}
