@@ -15,8 +15,8 @@ net.createServer(function(socket){
     });
   });
   socket.on('close', function(s){
-    console.log(s);
+    clients.splice(clients.indexOf(socket), 1);
   });
-}).listen(8080);
+}).listen(process.env.PORT || 8080);
 
 
